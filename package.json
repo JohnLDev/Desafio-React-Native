@@ -7,7 +7,8 @@
     "ios": "react-native run-ios",
     "start": "react-native start",
     "test": "jest",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "dev":"react-native run-android deviceId emulator-5554 "
   },
   "dependencies": {
     "@testing-library/jest-native": "^3.1.0",
